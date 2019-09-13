@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="cucumberOptions.TestRunner">
+      <class name="Reusable.BaseTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="SetUp"/>
+          <include name="CreateDepartment"/>
+          <include name="closePage"/>
         </methods>
-      </class> <!-- cucumberOptions.TestRunner -->
+      </class> <!-- Reusable.BaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
