@@ -1,15 +1,20 @@
-Feature: Application Login 
+Feature: Application Login
 
-Scenario: Validate Login with valid credentials
+Scenario: Validate login with valid credentials
 
-Given User opens the application URL on chrome browser
+Given User opens the web application URL on chrome browser
 
-When Appropriate username and password is entered and user clicks login
+When User Clicks the login button
 
-Then User has access to the application 
+Then User enters username and password  
 
-And Close the browser
-
-
+And User clicks login
 
 
+
+
+
+
+
+
+ 

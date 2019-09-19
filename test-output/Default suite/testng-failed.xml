@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Reusable.BaseTest">
+      <class name="Reusable.BasePropertyTest">
         <methods>
           <include name="SetUp"/>
-          <include name="CreateDepartment"/>
-          <include name="closePage"/>
+          <include name="ConfirmationOfRenteneikommenValue"/>
         </methods>
-      </class> <!-- Reusable.BaseTest -->
+      </class> <!-- Reusable.BasePropertyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
